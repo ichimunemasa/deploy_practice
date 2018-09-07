@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: src/
-    destination: /var/www/html/
+    destination: /home/ec2-user/sample/
 hooks:
   BeforeInstall:
     - location: scripts/install.sh
